@@ -141,7 +141,7 @@ h4 {
   top: 0;
 }
 .box1-slide li:nth-child(2):after {
-  content: url(../images/plus_icon.png);
+  content: url(../images/w_plus_icon.png);
   width: 70px;
   position: absolute;
   left: 50%;
@@ -149,7 +149,7 @@ h4 {
   transform: translate(-50%, -50%);
 }
 .box1-slide li:nth-child(3):after {
-  content: url(../images/plus_icon.png);
+  content: url(../images/w_plus_icon.png);
   width: 70px;
   position: absolute;
   left: 50%;
@@ -286,12 +286,23 @@ h4 {
   padding: 40px 10px;
   justify-content: space-between;
   border-bottom: 1px solid #DDD;
+  align-items: center;
 }
 .sub-box3 .box3-notion li .box3-text {
   order: 0;
 }
 .sub-box3 .box3-notion li .date-box {
+  position: relative;
   order: 1;
+}
+.sub-box3 .box3-notion li.active .date-box:after {
+  display: none;
+}
+.sub-box3 .box3-notion li .date-box:after {
+  content: url(../images/time.png);
+  position: absolute;
+  left: -43px;
+  top: -11px;
 }
 .sub-box3 .box3-notion li .date-box p {
   display: inline-block;
@@ -338,7 +349,6 @@ h4 {
   margin: 10px 0;
 }
 .sub-box3 .box3-notion li.active .box3-text p {
-  /* display: block; */
   font-size: 20px;
   margin-bottom: 40px;
   word-break: break-all;
@@ -372,10 +382,66 @@ h4 {
 
 
 .sub-box4 {
-  height: 300px;
   background-color: #F5F5F5;
+  padding: 70px 0 130px;
 }
 
+.sub-box4 .innerbox h2 {
+  font-size: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.sub-box4 .box4-teb-box {
+  display: flex;
+}
+
+.sub-box4 .box4-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-box4 .box4-btn {
+  display: flex;
+}
+.sub-box4 .box4-teb-box li.active {
+  background-color: #D7242A;
+  color: #fff;
+  border: none;
+}
+
+.sub-box4 .box4-teb-box li {
+  padding: 15px;
+  background-color: #fff;
+  color: #333;
+  border: solid 1px #E1E1E1;
+}
+.sub-box4 .box4-board {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sub-box4 .box4-board li {
+  flex: 1 1 30%;
+}
+.sub-box4 .box4-board .img-box {
+  height: 250px;
+  background-color: #000;
+}
+.sub-box4 .box4-board .text-box {
+  padding: 20px 10px 40px 10px;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.sub-box4 .box4-board .text-box p {
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
 .sub-box5 {
   height: 300px;
   background-color: #474747;

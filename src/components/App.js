@@ -147,7 +147,7 @@ function App() {
         <ul className="box3-notion">
           <li className="active">
             <div className="date-box">
-              2023.01
+              2023.01.
               <p>27</p>
             </div>
             <div className="box3-text">
@@ -156,12 +156,12 @@ function App() {
               <div className="">View more</div>
             </div>
             <div className="box3-img">
-              <img src="./public/image/news_img01" alt="news"/>
+              <img src="../image/news_img01" alt="news"/>
             </div>
           </li>
           <li>
             <div className="date-box">
-              2023.01
+              2023.01.
               <p>27</p>
             </div>
             <div className="box3-text">
@@ -170,12 +170,12 @@ function App() {
               <div className="">View more</div>
             </div>
             <div className="box3-img">
-              <img src="./public/image/news_img01" alt="news"/>
+              <img src="../image/news_img01" alt="news"/>
             </div>
           </li>
           <li>
             <div className="date-box">
-              2023.01
+              2023.01.
               <p>27</p>
             </div>
             <div className="box3-text">
@@ -184,7 +184,7 @@ function App() {
               <div className="">View more</div>
             </div>
             <div className="box3-img">
-              <img src="./public/image/news_img01" alt="news"/>
+              <img src="../image/news_img01" alt="news"/>
             </div>
           </li>
         </ul>
@@ -193,35 +193,41 @@ function App() {
       <div className="sub-box4">
         <div className="innerbox">
           <h2>프로그램</h2>
-          <div className="box4-teb-box">
-            <div>진행중인 프로그램</div>
-            <div>마감된 프로그램</div>
+          <div className="box4-menu">
+            <ul className="box4-teb-box">
+              <li className="active">진행중인 프로그램</li>
+              <li>마감된 프로그램</li>
+            </ul>
+            <ul className="box4-btn">
+              <li><img src="../image/left_icon.png" alt=""/></li>
+              <li><img src="../image/right_icon.png" alt=""/></li>
+              <li><img src="../image/plus_icon.png" alt=""/></li>
+            </ul>
           </div>
-          <ul className="box4-btn">
-            <li><img src="./public/image/news_img01" alt="program"/></li>
-            <li><img src="./public/image/news_img01" alt="program"/></li>
-            <li><img src="./public/image/news_img01" alt="program"/></li>
-          </ul>
           <ul className="box4-board">
             <li>
-              <div className="img-box"></div>
-              <p>[이벤트]2023 계묘년 EVENT</p>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="text-box"><p>[이벤트]2023 계묘년 EVENT</p></div>
             </li>
             <li>
-              <div className="img-box"></div>
-              <p>2023 부산 콘텐츠코리아 랩 온라인 기획</p>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="text-box"><p>2023 부산 콘텐츠코리아 랩 온라인 기획</p></div>
             </li>
             <li>
-              <div className="img-box"></div>
-              <p>원데이 클래스 &lt;블로그 수익화 나도 낼수 있을까?&gt;</p>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="text-box"><p>원데이 클래스 &lt;블로그 수익화 나도 낼수 있을까?&gt;</p></div>
             </li>
             <li>
-              <div className="img-box"></div>
-              <p>[세미나 및 교육]크리에이트 스튜디오 오프라인 장비교육</p>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="text-box"><p>[세미나 및 교육]크리에이트 스튜디오 오프라인 장비교육</p></div>
             </li>
             <li>
-              <div className="img-box"></div>
-              <p>[이벤트]부산 콘텐츠코리아 랩 숏폼 댓글 이벤트</p>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="text-box"><p>1인미디어 원데이클래스 수강생 모집</p></div>
+            </li>
+            <li>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="text-box"><p>[이벤트]부산 콘텐츠코리아 랩 숏폼 댓글 이벤트</p></div>
             </li>
           </ul>
         </div>
