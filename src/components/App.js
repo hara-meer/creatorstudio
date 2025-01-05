@@ -156,7 +156,7 @@ function App() {
               <div className="">View more</div>
             </div>
             <div className="box3-img">
-              <img src="../image/news_img01" alt="news"/>
+              <img src="../image/news_img01.jpg" alt="news"/>
             </div>
           </li>
           <li>
@@ -170,7 +170,7 @@ function App() {
               <div className="">View more</div>
             </div>
             <div className="box3-img">
-              <img src="../image/news_img01" alt="news"/>
+              <img src="../image/news_img01.jpg" alt="news"/>
             </div>
           </li>
           <li>
@@ -184,7 +184,7 @@ function App() {
               <div className="">View more</div>
             </div>
             <div className="box3-img">
-              <img src="../image/news_img01" alt="news"/>
+              <img src="../image/news_img01.jpg" alt="news"/>
             </div>
           </li>
         </ul>
@@ -206,78 +206,69 @@ function App() {
           </div>
           <ul className="box4-board">
             <li>
-              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/news_img02.jpg")'}}></div>
               <div className="text-box"><p>[이벤트]2023 계묘년 EVENT</p></div>
             </li>
             <li>
-              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/news_img03.jpg")'}}></div>
               <div className="text-box"><p>2023 부산 콘텐츠코리아 랩 온라인 기획</p></div>
             </li>
             <li>
-              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/news_img04.jpg")'}}></div>
               <div className="text-box"><p>원데이 클래스 &lt;블로그 수익화 나도 낼수 있을까?&gt;</p></div>
             </li>
             <li>
-              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/news_img05.jpg")'}}></div>
               <div className="text-box"><p>[세미나 및 교육]크리에이트 스튜디오 오프라인 장비교육</p></div>
             </li>
             <li>
-              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/news_img06.jpg")'}}></div>
               <div className="text-box"><p>1인미디어 원데이클래스 수강생 모집</p></div>
             </li>
             <li>
-              <div className="img-box" style={{ backgroundImage: 'url("../image/img_03.jpg")'}}></div>
+              <div className="img-box" style={{ backgroundImage: 'url("../image/news_img07.jpg")'}}></div>
               <div className="text-box"><p>[이벤트]부산 콘텐츠코리아 랩 숏폼 댓글 이벤트</p></div>
             </li>
           </ul>
         </div>
       </div>
 
-      <div className="sub-box5 innerbox">
-        <h2>아카이브</h2>
-        <ul className="box5-slide">
-          <li>
-            <p>2021 B CON 스타트앱 사업화지원 프로그램</p>
-            <h3>뉴 챔프(NEW Champ)</h3>
-            <ul className="box5-title">
-              <li>
-                <span>기업명</span> 플레이박스
-              </li>
-              <li>
+      <div className="sub-box5">
+        <div className="innerbox">
+          <h2>아카이브</h2>
+          <ul className="box5-slide">
+            <li style={{ backgroundImage: 'url("../image/blog_img_01.jpg")'}}>
+              <div className="box5-title">
+                <p>2021 B CON 스타트앱 사업화지원 프로그램</p>
+                <h3>뉴 챔프(NEW Champ)</h3>
+                <span>기업명</span> 플레이박스<br />
                 <span>대표자</span> 조수진
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>2021 B CON 스타트앱 사업화지원 프로그램</p>
-            <h3>뉴 챔프(NEW Champ)</h3>
-            <ul className="box5-title">
-              <li>
-                <span>기업명</span> 플레이박스
-              </li>
-              <li>
+              </div>
+            </li>
+            <li style={{ backgroundImage: 'url("../image/blog_img_01.jpg")'}}>
+              <div className="box5-title">
+                <p>2021 B CON 스타트앱 사업화지원 프로그램</p>
+                <h3>뉴 챔프(NEW Champ)</h3>
+                <span>기업명</span> 플레이박스<br />
                 <span>대표자</span> 조수진
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>2021 B CON 스타트앱 사업화지원 프로그램</p>
-            <h3>뉴 챔프(NEW Champ)</h3>
-            <ul className="box5-title">
-              <li>
-                <span>기업명</span> 플레이박스
-              </li>
-              <li>
+              </div>
+            </li>
+            <li style={{ backgroundImage: 'url("../image/blog_img_01.jpg")'}}>
+              <div className="box5-title">
+                <p>2021 B CON 스타트앱 사업화지원 프로그램</p>
+                <h3>뉴 챔프(NEW Champ)</h3>
+                <span>기업명</span> 플레이박스<br />
                 <span>대표자</span> 조수진
-              </li>
-            </ul>
-          </li>
-        </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="footer">
-        <div className="innerbox">
-          <div className="f-teb-menu">
+        
+        <div className="f-teb-menu">
+          <div className="innerbox">
             <ul className="f-ul">
               <li>개인정보 처리보험</li>
               <li>저작권 정책</li>
@@ -289,10 +280,15 @@ function App() {
               <li></li>
             </ul>
           </div>
+        </div>
+        <div className="innerbox">
           <div className="f-txt">
-            <img src="" alt=""/>
+            <img src="../image/w_logo.png" alt=""/>
             <div className="f-add">
-              부산광역시 동래구 사직로 77(사직동, 부산광역시 체육회관)<br />
+              센텀메인센터 부산광역시 해운대구 수영강변대로 140 부산문화콘텐츠콤플렉스 4 – 5층 (051-749-9175)
+              사업자 등록번호105-82-17272     크리에이터 스튜디오부산광역시 해운대구 수영강변대로 140 부산문화콘텐츠콤플렉스 2층 (051-749-9177)
+              <br />
+              <br />
               COPYRIGHT 2021 CONTENT ALL RIGHTS RESERVED
             </div>
           </div>
