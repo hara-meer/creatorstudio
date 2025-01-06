@@ -198,11 +198,11 @@ function App() {
               <li className="active">진행중인 프로그램</li>
               <li>마감된 프로그램</li>
             </ul>
-            <ul className="box4-btn">
+            {/* <ul className="box4-btn">
               <li><img src="../image/left_icon.png" alt=""/></li>
               <li><img src="../image/right_icon.png" alt=""/></li>
               <li><img src="../image/plus_icon.png" alt=""/></li>
-            </ul>
+            </ul> */}
           </div>
           <ul className="box4-board">
             <li>
