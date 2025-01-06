@@ -134,7 +134,7 @@ function App() {
           </div>
           
           <ul className="box2-teb-menu">
-            <li className="active">회사소개</li>
+            <li>회사소개</li>
             <li>입주실 안내</li>
             <li>장비 예약하기</li>
             <li>시설/공간 예약하기</li>
